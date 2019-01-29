@@ -1,1 +1,1 @@
-a = (input("Enter "
+a = (input("Enter the height of the pyramid"))
