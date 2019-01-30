@@ -1,2 +1,2 @@
-import myfile1
-myfile1.getting("java")
+def some_function():
+    print("hello_world")
