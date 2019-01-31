@@ -1,5 +1,8 @@
 value = input("Input: ")
-sort = ''.join(sorted(value))
+sort=sorted(value)
+#sort = ''.join(sorted(value))
+print(sort)
+
 if sort == value:
     print("True")
 else:
