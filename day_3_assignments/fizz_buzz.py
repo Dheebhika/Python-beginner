@@ -1,12 +1,12 @@
-#count = 0
-#count += 1
+# count = 0
+# count += 1
 
 
 def fizz_buzz():
     for values in range(0, 51):
 
         if values % 3 == 0 and values % 5 == 0:
-            print("fizzbuzz")
+            print("fizz buzz")
 
         elif values % 3 == 0:
             print("fizz")
@@ -18,7 +18,7 @@ def fizz_buzz():
             print(values)
 
 
-#count += 1
-#print(count)
+# count += 1
+# print(count)
 
 fizz_buzz()

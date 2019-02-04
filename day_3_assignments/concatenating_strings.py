@@ -4,8 +4,8 @@ def concatenate():
     # for i in list1:
     for n in range(1, 6):
         for i in list1:
-            concatenate = i + str(n)
-            list2.append(concatenate)
+            concatenate_ = i + str(n)
+            list2.append(concatenate_)
 
     print(list2)
 

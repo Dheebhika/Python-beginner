@@ -3,4 +3,5 @@ def some_function(*numbers):
 
     print(length)
 
-some_function(1,2,3)
+
+some_function(1, 2, 3)

@@ -1,8 +1,8 @@
 zero_count, positive_count, negative_count = 0, 0, 0
-list = [-1, 0, 0, 1, 100]
+list1 = [-1, 0, 0, 1, 100]
 print("Input: ", list)
 print("Output:")
-for num in list:
+for num in list1:
     if num == 0:
         zero_count += 1
     elif num >= 0:
