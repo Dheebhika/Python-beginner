@@ -10,6 +10,6 @@ class Circle():
 
 
 r = int(input("Enter the radius: "))
-object = Circle(r)
-print(object.area())
-print(object.perimeter())
+ob = Circle(r)
+print(ob.area())
+print(ob.perimeter())
