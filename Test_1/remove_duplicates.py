@@ -1,6 +1,7 @@
 def remove(duplicate):
     list_ = []
     for num in duplicate:
+
         if num not in list_:
             list_.append(num)
     return list_
