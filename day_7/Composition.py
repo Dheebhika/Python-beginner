@@ -14,8 +14,9 @@ class Room():
 
     def address1(self):
         print(self.house.address())
+        print(self.books)
 
 
 obj1 = House(7, "Kumbakonam")
-obj2 = Room("yy", obj1)
+obj2 = Room("Book: Wings of fire", obj1)
 obj2.address1()
